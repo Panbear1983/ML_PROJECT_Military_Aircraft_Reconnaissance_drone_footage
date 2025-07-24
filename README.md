@@ -5,7 +5,7 @@ Proceedure Roadmap: When multiple annotated subjects in a single image, I am dea
 
 Annotation: Each individual object in an image should be labeled separately. You'll want to create "bounding boxes" around each object in an image, and then label that box with the type of aircraft it contains. Tools like Labelbox, LabelImg, or VGG Image Annotator (VIA) can help with this process.
 
-Format the Data: Your labels should include not only the type of aircraft, but also the location of the bounding box within the image. These labels are usually saved in a structured format such as XML or JSON. For example, in TensorFlow's Object Detection API, they use the TFRecord format.
+Format the Data: My labels includes not only the type of aircraft, but also the location of the bounding box within the image. These labels are usually saved in a structured format such as XML or JSON. For example, in TensorFlow's Object Detection API, they use the TFRecord format.
 
 Model Selection: You'll want to choose a model architecture that's designed for object detection. Some examples include Single Shot MultiBox Detector (SSD), Region-CNN (R-CNN), and You Only Look Once (YOLO).
 
